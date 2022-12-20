@@ -4,11 +4,9 @@ function ohdtag(logger)
 
         [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-        $Mention = '<@]].. userdc ..[[>'
-
         $Body = [PSCustomObject]@{
             'username' = ']]..getBot().name..[[ | Ohdear'
-            'content' = ']]..logger..[['
+            'content' = ']]..userdc..[[ ]]..logger..[['
         }
 
         Invoke-RestMethod -Uri $w -Body ($Body | ConvertTo-Json -Depth 4) -Method Post -ContentType 'application/json'
