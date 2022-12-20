@@ -19,6 +19,11 @@ end
 
 
 function ohdsay(logger)
+    
+    AllIn = emot_bot.." Bot Name : "..getBot().name..
+    "earth_asia: Current World : "..WorldSkrg..
+    "\n"..statzBot.." Status : "..(getBot().status):upper().." ("..getPing()..
+    " Ms)\n:boom: Provider : "..GetNameID(farmID)
 
     Judulz = "Auto Science || "..#ListPembeli.." Users"
 
@@ -81,10 +86,7 @@ function ohdsay(logger)
 
         @{
             name = "Bot Information"
-            value = "]]..emot_bot..[[ Bot Name : ]]..getBot().name..
-            [[\:earth_asia: Current World : ]]..WorldSkrg..[[\n]]..statzBot..
-            [[ Status : ]]..(getBot().status):upper()..[[ (]]..getPing()..
-            [[ Ms)\n:boom: Provider : ]]..GetNameID(farmID)..[["
+            value = "]]..AllIn..[["
             inline = "false"
         }
 
