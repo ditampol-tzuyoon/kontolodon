@@ -51,7 +51,7 @@ function ohdsay(logger)
     end
 
     AllIn = emot_bot.." Bot Name : "..getBot().name..
-    "earth_asia: Current World : "..WorldSkrg..
+    "\n:earth_asia: Current World : "..WorldSkrg..
     "\n"..statzBot.." Status : "..(getBot().status):upper().." ("..getPing()..
     " Ms)\n:boom: Provider : "..GetNameID(farmID)
 
