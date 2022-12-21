@@ -6,7 +6,7 @@ function ohdtag(logger)
 
         $Body = [PSCustomObject]@{
             'username' = ']]..getBot().name..[[ | Ohdear'
-            'content' = ']]..userdc..[[ ]]..logger..[['
+            'content' = '<@]]..userdc..[[> ]]..logger..[['
         }
 
         Invoke-RestMethod -Uri $w -Body ($Body | ConvertTo-Json -Depth 4) -Method Post -ContentType 'application/json'
