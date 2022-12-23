@@ -20,6 +20,21 @@ end
 
 function ohdsay(logger)
 
+MenitRdp = (os.date("*t", os.time()).min)
+JamRdp = (os.date("*t", os.time()).hour) + Selisih
+
+if JamRdp >= 24 then
+    JamRdp = JamRdp - 24
+end
+
+if JamRdp < 10 then
+    myJam = "0"..JamRdp
+else
+    myJam = JamRdp
+end
+    
+    TotTime = "\nTime : ("..myJam..":"..MenitRdp..")"
+    
     Judulz = "Auto Science || "..#ListPembeli.." Users"
 
     if farmID == 928 then
@@ -72,7 +87,7 @@ function ohdsay(logger)
     }
 
     $footerObject = [PSCustomObject]@{
-        text = 'Auto Science Farm by Ohdear#2320'
+        text = 'Auto Science Farm by Ohdear#2320 ]]..TotTime..[['
         icon_url = ']].. Thumbs ..[['
     }
 
