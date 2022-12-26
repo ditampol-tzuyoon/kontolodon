@@ -65,8 +65,8 @@ end
         end
     end
 
-    AllIn = emot_bot.." Bot Name : "..getBot().name..
-    "\n:earth_asia: Current World : "..WorldSkrg..
+    AllIn = emot_bot.." Bot Name : "..getBot().name.." (Lv "..getBot().level..
+    ")\n:earth_asia: Current World : "..WorldSkrg..
     "\n"..statzBot.." Status : "..(getBot().status):upper().." ("..getPing()..
     " Ms)\n:boom: Provider : "..GetNameID(farmID)
 
