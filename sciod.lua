@@ -1,3 +1,14 @@
+LogoPartai = {
+    "https://raw.githubusercontent.com/ditampol-tzuyoon/jnck/main/partai/demokrat.png",
+    "https://raw.githubusercontent.com/ditampol-tzuyoon/jnck/main/partai/gerindra.png",
+    "https://raw.githubusercontent.com/ditampol-tzuyoon/jnck/main/partai/golkar.png",
+    "https://raw.githubusercontent.com/ditampol-tzuyoon/jnck/main/partai/nasdem.png",
+    "https://raw.githubusercontent.com/ditampol-tzuyoon/jnck/main/partai/pdip.jpeg",
+    "https://raw.githubusercontent.com/ditampol-tzuyoon/jnck/main/partai/perindo.png"
+}
+
+Lopar = math.random(1, #LogoPartai)
+
 function ohdtag(logger)
     local script = [[
         $w = "]]..PingHook..[["
@@ -45,8 +56,10 @@ end
 
     if getBot().status == "online" then
         statzBot = ":green_circle:"
+        Warna = 7405312
     else
         statzBot = ":red_circle:"
+        Warna = 16711680
     end
 
     WorldSkrg = (getBot().world):upper()
@@ -81,7 +94,7 @@ end
 
     [System.Collections.ArrayList]$embedArray = @()
     $descriptions = ']].. logger ..[['
-    $color       = ']]..math.random(1000000,9999999)..[['
+    $color       = ']]..Warna..[['
 
     $thumbnailObject = [PSCustomObject]@{
         url = ']].. Thumbs ..[['
@@ -95,7 +108,7 @@ end
     $authorObject = [PSCustomObject]@{
         name = "]]..Judulz..[[ || Author : Ohdear#2320"
         url = "https://discord.gg/TjVwdgma74"
-        icon_url = "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/05/16/3828930929.jpg"
+        icon_url = "]]..LogoPartai[Lopar]..[["
     }
 
     $fieldArray = @(
