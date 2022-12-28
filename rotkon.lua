@@ -312,7 +312,7 @@ ListPembeli = {
     {iddc = "558540718306623489", nick = "Jalusatyo"},
     {iddc = "470538084199694348", nick = "Movewal"},
     {iddc = "553101457688231937", nick = "PeNaMKu"},
-    {iddc = "962536780698120233", nick = "arulthelego"},
+    {iddc = "962536780698120233", nick = "triplewaluh2"},
     {iddc = "766902115346939924", nick = "VilNih4"},
     {iddc = "880044436342583326", nick = "GilPutGP1"},
     {iddc = "694395251384647741", nick = "HrdVoc"},
