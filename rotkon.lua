@@ -1,5 +1,5 @@
 ListPembeli = {
-    {iddc = "422670528483033088", nick = "OdStillAlive"},
+    {iddc = "1001607668772900864", nick = "OdStillAlive"},
     {iddc = "514608997995773963", nick = "14Walthor"},
     {iddc = "590014490616135706", nick = "KetuaPB"},
     {iddc = "742076780629983273", nick = "Botpret115"},
@@ -368,5 +368,6 @@ ListPembeli = {
     {iddc = "399534107887009792", nick = "Brenkyyy"},
     {iddc = "617246232892407808", nick = "FXTDMJ"},
     {iddc = "595250158162149376", nick = "hadiwele"},
-    {iddc = "884005410904866827", nick = "ShelCmd"}
+    {iddc = "884005410904866827", nick = "ShelCmd"},
+    {iddc = "645904196951998464", nick = "ChampbozzGT"}
 }
