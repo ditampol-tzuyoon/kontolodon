@@ -136,7 +136,6 @@ ListPembeli = {
     {iddc = "908009441213947905", nick = "gtsbot"},
     {iddc = "822020774742851594", nick = "ownersurs"},
     {iddc = "304118547288948736", nick = "lolGueAfii"},
-    {iddc = "754141126977388545", nick = "CadanganZhang"},
     {iddc = "994947971437301800", nick = "BurungKamu"},
     {iddc = "495584013625589762", nick = "VERENNN"},
     {iddc = "898721306126745630", nick = "gociops"},
