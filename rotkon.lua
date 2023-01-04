@@ -94,7 +94,7 @@ ListPembeli = {
     {iddc = "710530597470208080", nick = "fpzbsus"},
     {iddc = "710907209151938587", nick = "BaeRyujin"},
     {iddc = "776381515243454465", nick = "fathisukacindo"},
-    {iddc = "261481844598505472", nick = "PENTLUME"},
+    {iddc = "261481844598505472", nick = "AturZZ"},
     {iddc = "994089791941513267", nick = "CieleSan"},
     {iddc = "379928328599240706", nick = "Rzarajaj53"},
     {iddc = "909688003130167378", nick = "anjaiiiiprooo"},
