@@ -405,5 +405,8 @@ ListPembeli = {
     {iddc = "888622406539825212", nick = "PengRotasi"},
     {iddc = "331687322112491520", nick = "GryzFake"},
     {iddc = "720503455055085649", nick = "RadenConon"},
-    {iddc = "836957632559316993", nick = "tongpangs"}
+    {iddc = "836957632559316993", nick = "tongpangs"},
+    {iddc = "538721748346994698", nick = "Jengkale"},
+    {iddc = "438947974429671424", nick = "shikifujiin"},
+    {iddc = "591978305876393984", nick = "Zelenn"}
 }
