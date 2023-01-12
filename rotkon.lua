@@ -130,7 +130,7 @@ ListPembeli = {
     {iddc = "431747513062653963", nick = "QwertyCMD"},
     {iddc = "819546299744387112", nick = "NardoCom"},
     {iddc = "952157092372971561", nick = "Lixnar30"},
-    {iddc = "943906130629918800", nick = "Fkep"},
+    {iddc = "943906130629918800", nick = "LamaBetTai"},
     {iddc = "759384235113971715", nick = "Mocuan"},
     {iddc = "1003889148777742456", nick = "yigitlora"},
     {iddc = "908009441213947905", nick = "gtsbot"},
