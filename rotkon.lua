@@ -101,7 +101,7 @@ ListPembeli = {
     {iddc = "604886636244893734", nick = "slothzei"},
     {iddc = "917964265279881259", nick = "5mkeok89"},
     {iddc = "653208202141499403", nick = "Kaputkabani2"},
-    {iddc = "455384591050604547", nick = "JVPD"},
+    {iddc = "455384591050604547", nick = "ForestNatur"},
     {iddc = "542142794681155609", nick = "yblwep24"},
     {iddc = "718331073708425317", nick = "Willie99"},
     {iddc = "473835332752637952", nick = "JOJOGEH300"},
