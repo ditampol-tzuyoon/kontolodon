@@ -22,7 +22,7 @@ ListPembeli = {
     {iddc = "256413719725080588", nick = "DUCHTES"},
     {iddc = "924572754148220979", nick = "ruditocry"},
     {iddc = "316409421137838080", nick = "Gantengbau"},
-    {iddc = "492302342427770891", nick = "sheisren"},
+    {iddc = "492302342427770891", nick = "piren32"},
     {iddc = "335223530675240960", nick = "cinzi"},
     {iddc = "358256795862564865", nick = "mocalady"},
     {iddc = "728628332416991373", nick = "cembrang"},
