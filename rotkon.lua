@@ -174,7 +174,7 @@ ListPembeli = {
     {iddc = "324913954151333890", nick = "PecintaMMQ"},
     {iddc = "958655102657368124", nick = "SychroS"},
     {iddc = "852424844279939074", nick = "FADILKAYA"},
-    {iddc = "961866043318472744", nick = "Countroler"},
+    {iddc = "961866043318472744", nick = "SellGoSXXD"},
     {iddc = "783364336084844585", nick = "Aromanya"},
     {iddc = "768118364681273385", nick = "KaptenRodric"},
     {iddc = "692699103716573225", nick = "RIKWIL"},
