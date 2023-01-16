@@ -440,5 +440,6 @@ ListPembeli = {
     {iddc = "868353739608719370", nick = "SELLgoOEKZ"},
     {iddc = "756474749240213536", nick = "CoolRyanBS"},
     {iddc = "988793992491712552", nick = "rrqfking"},
-    {iddc = "381771539629998080", nick = "gwki"}
+    {iddc = "381771539629998080", nick = "gwki"},
+    {iddc = "390503424564920330", nick = "GivesafeTURU"}
 }
