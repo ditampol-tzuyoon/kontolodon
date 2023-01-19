@@ -390,7 +390,7 @@ ListPembeli = {
     {iddc = "685829686244540532", nick = "ILoveRECEH"},
     {iddc = "902144872096608277", nick = "LockMH"},
     {iddc = "1020259625033011230", nick = "ENVReed"},
-    {iddc = "974273209115508797", nick = "GalihEx99"}, -- 20dl
+    {iddc = "974273209115508797", nick = "GalihEx99"},
     {iddc = "837269369661816872", nick = "skydardu6"},
     {iddc = "265735067198816259", nick = "CHIKIM"},
     {iddc = "853355281533370398", nick = "VenBabu"},
@@ -453,5 +453,6 @@ ListPembeli = {
     {iddc = "969127194272104508", nick = "Megnz"},
     {iddc = "463619190004252673", nick = "CoCoPit"},
     {iddc = "500858459059781632", nick = "NirzaN"},
-    {iddc = "748438130796920872", nick = "TeamBubGT"}
+    {iddc = "748438130796920872", nick = "TeamBubGT"},
+    {iddc = "866701568296615976", nick = "89kingkong"}
 }
