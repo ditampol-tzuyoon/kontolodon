@@ -297,7 +297,7 @@ ListPembeli = {
     {iddc = "709380517006409800", nick = "MAWINBANNED"},
     {iddc = "419455338295721984", nick = "BeUse"},
     {iddc = "783170691070558229", nick = "rtmentos100"},
-    {iddc = "935581740280463430", nick = "goktugking0"},
+    {iddc = "935581740280463430", nick = "goktugking00"},
     {iddc = "801687196725805067", nick = "Fawdy"},
     {iddc = "443788266626351114", nick = "iRiyuuun"},
     {iddc = "1025736463062675456", nick = "LipoRetinol"},
