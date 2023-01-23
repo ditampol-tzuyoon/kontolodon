@@ -450,7 +450,6 @@ ListPembeli = {
     {iddc = "513720454481969153", nick = "BukanPutt"},
     {iddc = "753201963948048394", nick = "AmKairi"},
     {iddc = "893804482561982495", nick = "PutraRian"},
-    {iddc = "969127194272104508", nick = "Megnz"},
     {iddc = "463619190004252673", nick = "CoCoPit"},
     {iddc = "500858459059781632", nick = "NirzaN"},
     {iddc = "748438130796920872", nick = "TeamBubGT"},
