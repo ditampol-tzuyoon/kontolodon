@@ -124,7 +124,7 @@ ListPembeli = {
     {iddc = "805127110531612733", nick = "GoGoMinul"},
     {iddc = "404513878182068224", nick = "BabuBum"},
     {iddc = "380029255964426250", nick = "soess50"},
-    {iddc = "731513968958636063", nick = "Nikimawn"},
+    {iddc = "731513968958636063", nick = "Nikimawn123"},
     {iddc = "388593569474281472", nick = "dogtorxevo"},
     {iddc = "786590210674655263", nick = "2nzvsyt"},
     {iddc = "431747513062653963", nick = "QwertyCMD"},
