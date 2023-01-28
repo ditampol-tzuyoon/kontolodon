@@ -349,7 +349,7 @@ ListPembeli = {
     {iddc = "487931555893870593", nick = "CSPR0100"},
     {iddc = "420551343372107776", nick = "ielenam"},
     {iddc = "866800038604308491", nick = "BungulCuy"},
-    {iddc = "1006873184013914142", nick = "DALBOnad"},
+    {iddc = "1006873184013914142", nick = "FALBOnad"},
     {iddc = "722540072783839342", nick = "OHDACTVE"},
     {iddc = "523850664653357067", nick = "DarrenFrizy4"},
     {iddc = "731394301967204452", nick = "sugarxlith"},
