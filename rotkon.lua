@@ -61,7 +61,7 @@ ListPembeli = {
     {iddc = "451199572941864960", nick = "GokuKing007"},
     {iddc = "284670663715717130", nick = "IRIOMOTE"},
     {iddc = "403128734351097857", nick = "YilQ"},
-    {iddc = "454443422061821952", nick = "ALANRRRR"},
+    {iddc = "454443422061821952", nick = "AlanSSR"},
     {iddc = "490936486657654816", nick = "lymm4u"},
     {iddc = "963679436786528296", nick = "InulAbiru"},
     {iddc = "276285846439854080", nick = "PTGerJaya"},
