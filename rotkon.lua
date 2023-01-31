@@ -388,7 +388,7 @@ ListPembeli = {
     {iddc = "358234096650158082", nick = "EugeneRanger"},
     {iddc = "876068865405227030", nick = "EzukoStore"},
     {iddc = "685829686244540532", nick = "ILoveRECEH"},
-    {iddc = "902144872096608277", nick = "LockOH"},
+    {iddc = "902144872096608277", nick = "LockOD"},
     {iddc = "1020259625033011230", nick = "ENVReed"},
     {iddc = "974273209115508797", nick = "GalihEx99"},
     {iddc = "837269369661816872", nick = "skydardu6"},
