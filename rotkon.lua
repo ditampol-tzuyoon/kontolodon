@@ -504,7 +504,7 @@ ListPembeli = {
     {iddc = "894637206713557003", nick = "bsboti2"},
     {iddc = "578408930028290059", nick = "EpinGoblok2"},
     {iddc = "385200223833686016", nick = "MeHongg106"},
-    {iddc = "864033586462195742", nick = "JerrickAL"},
+    {iddc = "864033586462195742", nick = "AweiJR"},
     {iddc = "444489519861858304", nick = "LEFINTITID"},
     {iddc = "734568178725945464", nick = "EVVNXV"},
     {iddc = "470504952851202060", nick = "AD8J"},
