@@ -484,7 +484,7 @@ ListPembeli = {
     {iddc = "275919904371113994", nick = "RUMAHSC"},
     {iddc = "612196841576202241", nick = "PuanLover"},
     {iddc = "813756418263744582", nick = "ATVCMF"},
-    {iddc = "390051411720929292", nick = "voepbvra"},
+    {iddc = "390051411720929292", nick = "mrzoomxd"},
     {iddc = "469717816401199134", nick = "dabyosh124"},
     {iddc = "383019630354104340", nick = "Enjoyesya6"},
     {iddc = "409253234855641090", nick = "LORDMOE"},
