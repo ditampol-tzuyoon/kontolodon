@@ -310,7 +310,7 @@ ListPembeli = {
     {iddc = "553101457688231937", nick = "asfktu040"},
     {iddc = "962536780698120233", nick = "triplewaluh2"},
     {iddc = "766902115346939924", nick = "VoidBomb"},
-    {iddc = "880044436342583326", nick = "spamkow40"},
+    {iddc = "880044436342583326", nick = "gundulsu"},
     {iddc = "694395251384647741", nick = "HrdVoc"},
     {iddc = "905388946358423562", nick = "GyuKaKyu"},
     {iddc = "438777852737880064", nick = "Qoxzam3"},
