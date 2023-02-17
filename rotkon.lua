@@ -467,7 +467,7 @@ ListPembeli = {
     {iddc = "963422426144854056", nick = "TuamaMancing"},
     {iddc = "389253850349043732", nick = "BQQQ"},
     {iddc = "336522019766009866", nick = "RZero100"},
-    {iddc = "260470090745511938", nick = "ZoeGar"},
+    {iddc = "260470090745511938", nick = "Ghuezoe"},
     {iddc = "814819825419288606", nick = "TolBasirih"},
     {iddc = "806729117298982922", nick = "MawMoot"},
     {iddc = "431391548425371659", nick = "NGACEENG"},
