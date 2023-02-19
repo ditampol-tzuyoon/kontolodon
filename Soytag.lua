@@ -4,15 +4,282 @@ else
     Lihatin = "Gak"
 end
 
+if Jastip then
+	Gajian = true
+end
+
+LogoPartai = {
+    "https://raw.githubusercontent.com/ditampol-tzuyoon/jnck/main/partai/demokrat.png",
+    "https://raw.githubusercontent.com/ditampol-tzuyoon/jnck/main/partai/gerindra.png",
+    "https://raw.githubusercontent.com/ditampol-tzuyoon/jnck/main/partai/golkar.png",
+    "https://raw.githubusercontent.com/ditampol-tzuyoon/jnck/main/partai/nasdem.png",
+    "https://raw.githubusercontent.com/ditampol-tzuyoon/jnck/main/partai/pdip.jpeg",
+    "https://raw.githubusercontent.com/ditampol-tzuyoon/jnck/main/partai/perindo.png"
+}
+
+Lopar = math.random(1, #LogoPartai)
+
+function ohdtag(logger)
+	
+if getBot().status ~= "online" then
+    if Jastip then
+        Ment = "<@".. userdc .."> <@&".. UserID_Role ..">"
+    else
+        Ment = "<@".. userdc ..">"
+    end
+else
+    Ment = ""
+end
+	
+    if getBot().status == "online" then
+        statzBot = ":green_circle:"
+        Warna = 7405312
+    else
+        statzBot = ":red_circle:"
+        Warna = 16711680
+    end
+	
+    kalimatku = "\n~\nLINK INFO: "
+    chinfo = "\nCHANNEL:"
+    local script = [[
+        $gethook = "]]..MainHook..[["
+        $w = "]]..PingHook..[["
+
+        [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+        $ambilhook = Invoke-RestMethod -Uri $gethook -Method GET
+        $chid = $ambilhook.channel_id
+        $guid = $ambilhook.guild_id
+        $hukid = "]]..HookID..[["
+        $Morez = "https://discord.com/channels/" + $guid + "/" + $chid + "/" + $hukid
+
+        [System.Collections.ArrayList]$embedArray = @()
+        $descriptions = ']].. logger ..[[ ]].. kalimatku ..[[' + $Morez + ']].. chinfo ..[[ <#' + $chid + '>'
+        $color       = ']]..Warna..[['
+
+        $embedObject = [PSCustomObject]@{
+            description = $descriptions
+            color       = $color
+        }
+
+        $embedArray.Add($embedObject) | Out-Null
+
+        $Body = [PSCustomObject]@{
+            embeds = $embedArray
+            'username' = ']]..getBot().name..[[|OD2320'
+            'content' = ']]..Ment..[['
+        }
+
+        Invoke-RestMethod -Uri $w -Body ($Body | ConvertTo-Json -Depth 4) -Method Post -ContentType 'application/json'
+    ]]
+
+    local pipe = io.popen("powershell -command -", "w")
+    pipe:write(script)
+    pipe:close()
+end
+
+function ohdmod(logger)
+
+    InfoBy = "\nInfo By <@" .. userdc .. ">"
+    TagRole = "<@&1057182557185257522>"
+    Warna = 16711680
+        
+    local script = [[
+        $w = "]]..modpek..[["
+
+        [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
+        [System.Collections.ArrayList]$embedArray = @()
+        $descriptions = ']].. logger ..[[ ]]..InfoBy..[['
+        $color       = ']]..Warna..[['
+
+        $embedObject = [PSCustomObject]@{
+            description = $descriptions
+            color       = $color
+        }
+
+        $embedArray.Add($embedObject) | Out-Null
+
+        $Body = [PSCustomObject]@{
+            embeds = $embedArray
+            'username' = 'ModsMmk | Od2320'
+            'content' = ']]..TagRole..[['
+        }
+
+        Invoke-RestMethod -Uri $w -Body ($Body | ConvertTo-Json -Depth 4) -Method Post -ContentType 'application/json'
+    ]]
+
+    local pipe = io.popen("powershell -command -", "w")
+    pipe:write(script)
+    pipe:close()
+end
+
+function odnotice(logger)
+	
+    if getBot().status == "online" then
+        statzBot = ":green_circle:"
+        Warna = 7405312
+    else
+        statzBot = ":red_circle:"
+        Warna = 16711680
+    end
+
+    if Jastip then
+        if userdc then
+            Mention = "<@".. userdc .."> <@&".. UserID_Role ..">"
+        else
+            Mention = ""
+        end
+    else
+        if userdc then
+            Mention = "<@"..userdc..">"
+        else
+            Mention = ""
+        end
+    end
+
+    local script = [[
+        $w = "]]..PingHook..[["
+
+        [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
+        [System.Collections.ArrayList]$embedArray = @()
+        $descriptions = ']].. logger ..[['
+        $color       = ']]..Warna..[['
+
+        $embedObject = [PSCustomObject]@{
+            description = $descriptions
+            color       = $color
+        }
+
+        $embedArray.Add($embedObject) | Out-Null
+
+        $Body = [PSCustomObject]@{
+            embeds = $embedArray
+            'username' = ']]..getBot().name..[[ | OD2320'
+            'content' = ']]..Mention..[['
+        }
+
+        Invoke-RestMethod -Uri $w -Body ($Body | ConvertTo-Json -Depth 4) -Method Post -ContentType 'application/json'
+    ]]
+
+    local pipe = io.popen("powershell -command -", "w")
+    pipe:write(script)
+    pipe:close()
+end
+
+function odplant(logger)
+
+    MenitRdp = (os.date("*t", os.time()).min) + 0
+    JamRdp = (os.date("*t", os.time()).hour) + Selisih
+
+    if MenitRdp < 10 then
+        myMenit = "0"..MenitRdp
+    else
+        myMenit = MenitRdp
+    end
+
+    if JamRdp >= 24 then
+        JamRdp = JamRdp - 24
+    end
+
+    if JamRdp < 10 then
+        myJam = "0"..JamRdp
+    else
+        myJam = JamRdp
+    end
+
+    if block == 4584 then
+        Thumbs = "https://raw.githubusercontent.com/ditampol-tzuyoon/Growtopia/main/pepper.webp"
+    elseif block == 5666 then
+        Thumbs = "https://raw.githubusercontent.com/ditampol-tzuyoon/Growtopia/main/LaserGrid.webp"
+    elseif block == 3004 then
+        Thumbs = "https://raw.githubusercontent.com/ditampol-tzuyoon/Growtopia/main/ftank.webp"
+    elseif block == 340 then
+        Thumbs = "https://raw.githubusercontent.com/ditampol-tzuyoon/Growtopia/main/chand.webp"
+    elseif block == 8640 then
+        Thumbs = "https://raw.githubusercontent.com/ditampol-tzuyoon/Growtopia/main/sambalado.webp"
+    else
+        Thumbs = ""
+    end
+
+	TanamWorld = "Planting ("..nPlant.." of "..#WorldPlant.." Worlds)"
+    Warna = 7405312
+    Banteng = math.random(1, #LogoPartai)
+
+    SendPlant = PlantHook.."/messages/"..PlantMsg
+
+    local script = [[
+        $w = "]]..SendPlant..[["
+
+        [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
+        [System.Collections.ArrayList]$embedArray = @()
+        $descriptions = ']].. logger ..[['
+        $color       = ']]..Warna..[['
+
+        $footerObject = [PSCustomObject]@{
+            text = 'Bonus Planting' + "`n" + '(Time : ]]..myJam..[[:]]..myMenit..[[)'
+            icon_url = ']].. Thumbs ..[['
+        }
+
+        $thumbnailObject = [PSCustomObject]@{
+            url = ']].. Thumbs ..[['
+        }
+
+        $authorObject = [PSCustomObject]@{
+            name = "Continue Plant || Author : Ohdear#2320"
+            url = "https://discord.gg/TjVwdgma74"
+            icon_url = "]]..LogoPartai[Banteng]..[["
+        }
+
+        $fieldArray = @(
+
+            @{
+                name = "]]..TanamWorld..[["
+                value = "]]..IngfoPlant()..[["
+                inline = "false"
+            }
+        )
+
+        $embedObject = [PSCustomObject]@{
+            description = $descriptions
+            color       = $color
+            footer      = $footerObject
+            thumbnail   = $thumbnailObject
+            author      = $authorObject
+            fields      = $fieldArray
+        }
+
+        $embedArray.Add($embedObject) | Out-Null
+
+        $Body = [PSCustomObject]@{
+            embeds = $embedArray
+            'username' = ']]..getBot().name..[[ | OD2320'
+        }
+
+        Invoke-RestMethod -Uri $w -Body ($Body | ConvertTo-Json -Depth 4) -Method Patch -ContentType 'application/json'
+    ]]
+
+    local pipe = io.popen("powershell -command -", "w")
+    pipe:write(script)
+    pipe:close()
+end
+
 function ciduklu(logger, maUrlz)
 
-AllDelay = "\n~\n"..emot_bot.." "..getBot().name.." (Lv "
-..getBot().level..")\nBreak / Place / HT / Plant / World : **("
-..delaypnb.." / "..delayplace.." / "..delayht.." / "
-..delayplant.." / "..delayworld..")**"
-
-    MenitRdp = (os.date("*t", os.time()).min)
+    AllDelay = "\n~\n"..emot_bot.." "..getBot().name.." (Lv "
+    ..getBot().level..")\nBreak / Place / HT / Plant / World : **("
+    ..delaypnb.." / "..delayplace.." / "..delayht.." / "
+    ..delayplant.." / "..delayworld..")**"
+    
+    MenitRdp = (os.date("*t", os.time()).min) + 0
     JamRdp = (os.date("*t", os.time()).hour) + Selisih
+
+    if MenitRdp < 10 then
+        myMenit = "0"..MenitRdp
+    else
+        myMenit = MenitRdp
+    end
 
     if JamRdp >= 24 then
         JamRdp = JamRdp - 24
@@ -56,7 +323,7 @@ AllDelay = "\n~\n"..emot_bot.." "..getBot().name.." (Lv "
     $color       = ']]..math.random(1000000,9999999)..[['
 
     $footerObject = [PSCustomObject]@{
-        text = 'IP : ' + $ip + "`n" + $Tanggal + '(Time : ]]..myJam..[[:]]..MenitRdp..[[)'
+        text = 'IP : ' + $ip + "`n" + $Tanggal + '(Time : ]]..myJam..[[:]]..myMenit..[[)'
         icon_url = ']].. Thumbs ..[['
     }
 
@@ -67,7 +334,7 @@ AllDelay = "\n~\n"..emot_bot.." "..getBot().name.." (Lv "
     $authorObject = [PSCustomObject]@{
         name = ']].. Tizy ..[[' + " || CPU : " + $CPU + "%" + " || RAM : " + $Ram + "%"
         url = "https://discord.gg/TjVwdgma74"
-        icon_url = "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/05/16/3828930929.jpg"
+        icon_url = "]]..LogoPartai[Lopar]..[["
     }
 
 
@@ -97,49 +364,18 @@ AllDelay = "\n~\n"..emot_bot.." "..getBot().name.." (Lv "
     pipe:close()
 end
 
-function ohdtag(logger)
-    kalimatku = "\n~\n" ..emot_bot.. " " ..getBot().name.. "\nInfo Bot Silahkan Cek di"
-    local script = [[
-        $gethook = "]]..MainHook..[["
-        $w = "]]..PingHook..[["
-
-        [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-        $ambilhook = Invoke-RestMethod -Uri $gethook -Method GET
-        $dapatid = $ambilhook.channel_id
-
-        $Mention = '<@]].. userdc ..[[>'
-
-        [System.Collections.ArrayList]$embedArray = @()
-        $descriptions = ']].. logger ..[[ ]].. kalimatku ..[[ <#' + $dapatid + '>'
-        $color       = ']]..math.random(1000000,9999999)..[['
-
-        $embedObject = [PSCustomObject]@{
-            description = $descriptions
-            color       = $color
-        }
-
-        $embedArray.Add($embedObject) | Out-Null
-
-        $Body = [PSCustomObject]@{
-            embeds = $embedArray
-            'username' = ']]..getBot().name..[[|OD2320'
-            'content' = $Mention
-        }
-
-        Invoke-RestMethod -Uri $w -Body ($Body | ConvertTo-Json -Depth 4) -Method Post -ContentType 'application/json'
-    ]]
-
-    local pipe = io.popen("powershell -command -", "w")
-    pipe:write(script)
-    pipe:close()
-end
-
 function ohdsay(logger, hookURL, Pings)
 
 if namapack == "crackers" then
     Winter = "\n~\n>> Happy Christmas! Crackers Bought **("..EventBuy.." of 20)**"
 else
     Winter = ""
+end
+    
+if LinkImage then
+    imagez = LinkImage
+else
+    imagez = ""
 end
 
     Judulz = "Rotasi Soil ("..versi..") || "..#ListPembeli.." Users."
@@ -150,7 +386,7 @@ end
         ingfo = ""
     end
 
-    MenitRdp = (os.date("*t", os.time()).min)
+    MenitRdp = (os.date("*t", os.time()).min) + 0
     JamRdp = (os.date("*t", os.time()).hour) + Selisih
 
     if MenitRdp < 10 then
@@ -191,9 +427,12 @@ end
 
     if getBot().status == "online" then
         statzBot = ":green_circle:"
+        Warna = 7405312
     else
         statzBot = ":red_circle:"
+        Warna = 16711680
     end
+
 
     if findClothes(98) then
         PickBotz = ":green_circle: **Pickaxe** (x"..findItem(98)..")"
@@ -207,7 +446,7 @@ end
         targetlv = getBot().level
     end
 
-AllDelay = "Break / Place / HT / Plant / World : **("
+AllDelay = "\n~\nBreak / Place / HT / Plant / World : **("
 ..delaypnb.." / "..delayplace.." / "..delayht.." / "
 ..delayplant.." / "..delayworld..")**"
 
@@ -219,8 +458,23 @@ AllDelay = "Break / Place / HT / Plant / World : **("
                 Muncul = true
             end
         end
+        for _, v in pairs(WorldSeed) do
+            if v:upper() == WorldSkrg then
+                Muncul = true
+            end
+        end
+        for _, v in pairs(WorldPack) do
+            if v:upper() == WorldSkrg then
+                Muncul = true
+            end
+        end
         if WorldAxe:upper() == WorldSkrg then
             Muncul = true
+        end
+        if Jastip then
+            if WorldGaji:upper() == WorldSkrg then
+                Muncul = true
+            end
         end
         if Muncul then
             WorldSkrg = WorldSkrg:gsub(string.sub(WorldSkrg, 1, string.len(WorldSkrg) - 3), "")
@@ -264,7 +518,7 @@ AllDelay = "Break / Place / HT / Plant / World : **("
 
         [System.Collections.ArrayList]$embedArray = @()
         $descriptions = ']].. logger ..[[ ]]..TempOff..[[ ]]..AllDelay..[['
-        $color       = ']]..math.random(1000000,9999999)..[['
+        $color       = ']]..Warna..[['
 
 
         $footerObject = [PSCustomObject]@{
@@ -275,11 +529,12 @@ AllDelay = "Break / Place / HT / Plant / World : **("
         $thumbnailObject = [PSCustomObject]@{
             url = ']].. Thumbs ..[['
         }
+        
 
         $authorObject = [PSCustomObject]@{
             name = "]]..Judulz..[[ || Author : Ohdear#2320"
             url = "https://discord.gg/TjVwdgma74"
-            icon_url = "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/05/16/3828930929.jpg"
+            icon_url = "]]..LogoPartai[Lopar]..[["
         }
 
         $fieldArray = @(
@@ -328,8 +583,8 @@ AllDelay = "Break / Place / HT / Plant / World : **("
                 inline = "true"
             }
             @{
-                name = "]]..emot_wl..[[ WL in Backpack"
-                value = "]]..(findItem(242)+(findItem(1796)*100))..[[ WLs"
+                name = ":gem: ]]..GetNameID(FavItem)..[[ in Backpack"
+                value = "]]..(findItem(FavItem))..[[ Items"
                 inline = "true"
             }
             @{
@@ -408,7 +663,7 @@ AllDelay = "Break / Place / HT / Plant / World : **("
 
         [System.Collections.ArrayList]$embedArray = @()
         $descriptions = ']].. logger ..[['
-        $color       = ']]..math.random(1000000,9999999)..[['
+        $color       = ']]..Warna..[['
 
 
         $footerObject = [PSCustomObject]@{
@@ -423,7 +678,7 @@ AllDelay = "Break / Place / HT / Plant / World : **("
         $authorObject = [PSCustomObject]@{
             name = "]]..Judulz..[[ || Author : Ohdear#2320 "
             url = "https://discord.gg/TjVwdgma74"
-            icon_url = "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/05/16/3828930929.jpg"
+            icon_url = "]]..LogoPartai[Lopar]..[["
         }
 
         $fieldArray = @(
@@ -433,8 +688,8 @@ AllDelay = "Break / Place / HT / Plant / World : **("
                 inline = "false"
             }
             @{
-                name = "]]..emot_world..[[ World Storage (Seed)"
-                value = "]]..SisaSeed..[[ ]]..GetNameID(seed)..[["
+                name = "]]..emot_world..[[ ]]..GetNameID(seed)..[["
+                value = "]]..ShowSeed..[["
                 inline = "true"
             }
             @{
@@ -512,7 +767,7 @@ AllDelay = "Break / Place / HT / Plant / World : **("
 
         [System.Collections.ArrayList]$embedArray = @()
         $descriptions = ']].. logger ..[['
-        $color       = ']]..math.random(1000000,9999999)..[['
+        $color       = ']]..Warna..[['
 
 
         $footerObject = [PSCustomObject]@{
@@ -527,7 +782,7 @@ AllDelay = "Break / Place / HT / Plant / World : **("
         $authorObject = [PSCustomObject]@{
             name = "]]..Judulz..[[ || Author : Ohdear#2320 "
             url = "https://discord.gg/TjVwdgma74"
-            icon_url = "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/05/16/3828930929.jpg"
+            icon_url = "]]..LogoPartai[Lopar]..[["
         }
 
         $fieldArray = @(
@@ -570,5 +825,3 @@ AllDelay = "Break / Place / HT / Plant / World : **("
         pipe:close()
     end
 end
-
-KntlWrldName = "AsedeMMK.lua"
