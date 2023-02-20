@@ -543,5 +543,6 @@ ListPembeli = {
     {iddc = "612117644736331797", nick = "roseportal"},
     {iddc = "901630176067194940", nick = "KapanKayaRaya"},
     {iddc = "956679813958086686", nick = "AlstcStain"},
-    {iddc = "333079536982032396", nick = "LOVELYBIN"}
+    {iddc = "333079536982032396", nick = "LOVELYBIN"},
+    {iddc = "683573670995558421", nick = "qazwer10"}
 }
