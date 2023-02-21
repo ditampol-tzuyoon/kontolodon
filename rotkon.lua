@@ -454,7 +454,7 @@ ListPembeli = {
     {iddc = "500858459059781632", nick = "NirzaN"},
     {iddc = "748438130796920872", nick = "TeamBubGT"},
     {iddc = "866701568296615976", nick = "54itukingkong"},
-    {iddc = "637275520140050443", nick = "CounterUbii"},
+    {iddc = "637275520140050443", nick = "Stereotype122"},
     {iddc = "452856961885536267", nick = "NuScript"},
     {iddc = "757878410352525353", nick = "veraxcuy"},
     {iddc = "754633913439354901", nick = "move6ahead"},
