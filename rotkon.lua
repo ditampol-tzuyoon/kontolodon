@@ -419,7 +419,7 @@ ListPembeli = {
     {iddc = "825740882270486528", nick = "BambangCuan"},
     {iddc = "234333133799948290", nick = "kakasmurf"},
     {iddc = "696911514350911490", nick = "wzlz"},
-    {iddc = "995027669492170792", nick = "PrinceLafa"},
+    {iddc = "995027669492170792", nick = "QueenLafa"},
     {iddc = "644137250292105251", nick = "Bxfy"},
     {iddc = "508994322394251304", nick = "AdityaDisini"},
     {iddc = "590821998465122304", nick = "Caybaee"},
