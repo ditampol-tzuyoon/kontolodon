@@ -219,7 +219,7 @@ ListPembeli = {
     {iddc = "942277519376252959", nick = "SURGPUNG200"},
     {iddc = "689653676863914009", nick = "j3Brgu0S"},
     {iddc = "766997063816183839", nick = "YCQEAJI"},
-    {iddc = "544814666514169888", nick = "Suksesbul"},
+    {iddc = "544814666514169888", nick = "Bisabul"},
     {iddc = "622674180588175370", nick = "irtolsurg10"},
     {iddc = "988420746630004776", nick = "CalvinMakaminang"},
     {iddc = "559388812992708609", nick = "Anatomies"},
