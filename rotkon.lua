@@ -496,7 +496,7 @@ ListPembeli = {
     {iddc = "332386460466544641", nick = "Kottu"},
     {iddc = "912536049018875905", nick = "Bwoy"},
     {iddc = "343232756345470976", nick = "anakiblistot"},
-    {iddc = "761616721613422633", nick = "niktspam34"},
+    {iddc = "761616721613422633", nick = "poloktiok32"},
     {iddc = "985797035871592478", nick = "mayreel100"},
     {iddc = "710602113398472747", nick = "hudajp"},
     {iddc = "1053011572341084160", nick = "spywekuk13"},
