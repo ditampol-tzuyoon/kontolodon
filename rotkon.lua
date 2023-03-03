@@ -537,7 +537,7 @@ ListPembeli = {
     {iddc = "391458140551512085", nick = "AyangManda"},
     {iddc = "402035409191698432", nick = "3ghostt"},
     {iddc = "655062272674103317", nick = "ImZawaraa"},
-    {iddc = "353080323266969600", nick = "TnTRun"},
+    {iddc = "353080323266969600", nick = "NagaBotNar21"},
     {iddc = "645034658073149492", nick = "NUMIKUNNIHDEK"},
     {iddc = "470219608654348288", nick = "JuanKatak"},
     {iddc = "612117644736331797", nick = "roseportal"},
