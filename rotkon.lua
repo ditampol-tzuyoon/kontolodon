@@ -91,7 +91,7 @@ ListPembeli = {
     {iddc = "905089633988263956", nick = "karat100kg"},
     {iddc = "622064128735051778", nick = "THKAI888"},
     {iddc = "325570546177933313", nick = "ApliAud"},
-    {iddc = "710530597470208080", nick = "PejuangUsaha"},
+    {iddc = "710530597470208080", nick = "qwlopq12"},
     {iddc = "710907209151938587", nick = "BaeRyujin"},
     {iddc = "776381515243454465", nick = "fathisukacindo"},
     {iddc = "261481844598505472", nick = "AturZZ"},
