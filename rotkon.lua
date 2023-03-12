@@ -143,7 +143,7 @@ ListPembeli = {
     {iddc = "995162099682660473", nick = "sapalima"},
     {iddc = "388042604111069185", nick = "D07Farm"},
     {iddc = "731070389291188245", nick = "AUREYX1"},
-    {iddc = "734980722284036206", nick = "NIRTANAS"},
+    {iddc = "734980722284036206", nick = "BUKANRAF"},
     {iddc = "701342840696864798", nick = "Torkxa"},
     {iddc = "581679196116484106", nick = "Torpex8"},
     {iddc = "944256047009374208", nick = "Sterlezias"},
