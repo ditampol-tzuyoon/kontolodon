@@ -79,7 +79,7 @@ ListPembeli = {
     {iddc = "873764105847197716", nick = "ZafroditZZZ"},
     {iddc = "803571303625785395", nick = "donyksrg"},
     {iddc = "968392244870656040", nick = "SINCown"},
-    {iddc = "597036774342131733", nick = "PengabdiMonyet"},
+    {iddc = "597036774342131733", nick = "XtraRio"},
     {iddc = "738651085840973895", nick = "FyanNeedRotasi"},
     {iddc = "464354481702961152", nick = "ExRotasi"},
     {iddc = "354606966644932618", nick = "Mosogi1"},
