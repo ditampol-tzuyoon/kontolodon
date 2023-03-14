@@ -176,7 +176,7 @@ ListPembeli = {
     {iddc = "852424844279939074", nick = "ROHMADKAYA"},
     {iddc = "961866043318472744", nick = "ubipiyoy7"},
     {iddc = "783364336084844585", nick = "Aromanya"},
-    {iddc = "768118364681273385", nick = "KaptenRodric"},
+    {iddc = "768118364681273385", nick = "JenderalRodric"},
     {iddc = "692699103716573225", nick = "RizZyx"},
     {iddc = "928559790433656892", nick = "Freezahhh12"},
     {iddc = "268714770331336705", nick = "Kroboy4"},
