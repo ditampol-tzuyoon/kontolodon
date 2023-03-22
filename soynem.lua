@@ -7,5 +7,6 @@ ListPembeli = {
     {iddc = "884499020817506314", nick = "pfrnin"},
     {iddc = "390747370968580100", nick = "viuhte"},
     {iddc = "444489519861858304", nick = "lefinadd"},
-    {iddc = "268680164295049217", nick = "IkanRGB"}
+    {iddc = "268680164295049217", nick = "IkanRGB"},
+    {iddc = "990290428983124048", nick = "WhyuCK"}
 }
