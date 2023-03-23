@@ -227,7 +227,7 @@ ListPembeli = {
     {iddc = "978093573008416788", nick = "Asyoc4"},
     {iddc = "837849499123580939", nick = "Neiran"},
     {iddc = "643343379903545364", nick = "briyancuan"},
-    {iddc = "924221988975816726", nick = "Hambul16"},
+    {iddc = "924221988975816726", nick = "Preketukz"},
     {iddc = "521698460546629642", nick = "BangTipen"},
     {iddc = "797474307148087326", nick = "riassand"},
     {iddc = "443112249658310657", nick = "Onteplek"},
