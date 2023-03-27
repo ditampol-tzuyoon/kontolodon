@@ -557,7 +557,7 @@ ListPembeli = {
     {iddc = "504268713529442304", nick = "QOKSTER"},
     {iddc = "490836282977681408", nick = "SlipMore"},
     {iddc = "1078599387258826843", nick = "GROQMEQ84"},
-    {iddc = "1078855441188139098", nick = "Cungbot93"},
+    {iddc = "1078855441188139098", nick = "Cakodel1"},
     {iddc = "421655433774891018", nick = "Vidkaa"},
     {iddc = "952763100019458128", nick = "HarbetTryHard"},
     {iddc = "994790394355253379", nick = "werpoint65"},
