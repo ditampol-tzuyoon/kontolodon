@@ -515,7 +515,7 @@ ListPembeli = {
     {iddc = "911291550728855593", nick = "XinSusLagi"},
     {iddc = "445845706293641218", nick = "BadInternets"},
     {iddc = "1031784367439220736", nick = "Jaju31"},
-    {iddc = "838439967176785961", nick = "eluzz"},
+    {iddc = "838439967176785961", nick = "heluzzz"},
     {iddc = "513285129280552990", nick = "brustea"},
     {iddc = "1014589319639470090", nick = "richtenli"},
     {iddc = "516219688091648011", nick = "NexKocak50"},
