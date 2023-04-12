@@ -564,7 +564,7 @@ ListPembeli = {
     {iddc = "488231250964774937", nick = "landprofits240"},
     {iddc = "422010475413241856", nick = "SellGoTUKUDB"},
     {iddc = "910769414780108820", nick = "VEBXNAZWA197"},
-    {iddc = "112716245035409408", nick = "JodyBGL"},
+    {iddc = "112716245035409408", nick = "JodySiPetani"},
     {iddc = "403091708885073921", nick = "amaterasugan"},
     {iddc = "460281514543022092", nick = "RIOWILKANMEMEK"},
     {iddc = "698118656735051776", nick = "ewwarot290"},
@@ -591,5 +591,6 @@ ListPembeli = {
     {iddc = "945527693284356107", nick = "smankingkop"},
     {iddc = "388327717248172042", nick = "TyrunGT"},
     {iddc = "561514494283481110", nick = "SAIROT"},
-    {iddc = "899554273925423124", nick = "ADKOPMNQQXW"}
+    {iddc = "899554273925423124", nick = "ADKOPMNQQXW"},
+    {iddc = "869172580198809651", nick = "DontBeRetard"}
 }
