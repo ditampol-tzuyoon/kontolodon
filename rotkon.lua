@@ -407,7 +407,7 @@ ListPembeli = {
     {iddc = "836957632559316993", nick = "tongpangs"},
     {iddc = "538721748346994698", nick = "Jengkale"},
     {iddc = "438947974429671424", nick = "shikifujiin"},
-    {iddc = "591978305876393984", nick = "Zelenn"},
+    {iddc = "591978305876393984", nick = "Zelennn"},
     {iddc = "657131466202939402", nick = "EULAkyun"},
     {iddc = "879326041020182550", nick = "MULSA"},
     {iddc = "637783502938570804", nick = "GROWASW1"},
