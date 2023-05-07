@@ -598,7 +598,7 @@ ListPembeli = {
     {iddc = "832285144088969236", nick = "sinoke"},
     {iddc = "1035180525893202061", nick = "RamaRoadToBGL"},
     {iddc = "1080152013217734696", nick = "MikoKawai"},
-    {iddc = "971578235659890688", nick = "WCUMUM1000"},
+    {iddc = "971578235659890688", nick = "Funykas450"},
     {iddc = "346180391323041792", nick = "iqipnb"},
     {iddc = "381719055704260608", nick = "Axillaris"},
     {iddc = "696886979853287487", nick = "ER32"},
