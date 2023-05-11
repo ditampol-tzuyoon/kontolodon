@@ -545,7 +545,7 @@ ListPembeli = {
     {iddc = "683573670995558421", nick = "iamxmac33"},
     {iddc = "980086225325142057", nick = "CodeNameLockOwn"},
     {iddc = "388692323417980939", nick = "UBIJI64"},
-    {iddc = "1048175844507525150", nick = "Wdslink2108"},
+    {iddc = "1048175844507525150", nick = "Wdslink2109"},
     {iddc = "722240763789967370", nick = "PukiimaX"},
     {iddc = "1030702448576303124", nick = "NammRenaiChu"},
     {iddc = "510334071260446730", nick = "monteagood20"},
