@@ -316,7 +316,7 @@ ListPembeli = {
     {iddc = "761642824202190919", nick = "Siloasol95"},
     {iddc = "993971490972258374", nick = "Hoopea"},
     {iddc = "521206491798044692", nick = "OCTOPUSRUNGKAD"},
-    {iddc = "598019800673026058", nick = "IWasUdin"},
+    {iddc = "598019800673026058", nick = "RocketThruster"},
     {iddc = "876754339681681439", nick = "bojipengusaha2"},
     {iddc = "598876138491609089", nick = "haykap11"},
     {iddc = "528058615819403285", nick = "fearful40"},
